@@ -38,11 +38,11 @@ long- 4 bytes- -2,147,483,648 to 2,147,483,647
 
 unsigned long- 4 bytes- 0 to 4,294,967,295
 
-####### Hint:
+##### Hint:
 * To get the exact size of a type or a variable on a particular platform, you can
 use the sizeof operator.
 * The expressions sizeof(type) yields the storage size of the object or type in bytes.
-######### Example:
+##### Example:
 
 #include <stdio.h>
 
@@ -58,13 +58,13 @@ return 0;
 
 }
 
-######## Result:
+##### Result:
 
 Storage size for int : 4
 
 #### Floating-Point Types:
 
-Type- Storage size- Value range- Precision
+_Type- Storage size- Value range- Precision_
 
 float- 4 byte- 1.2E-38 to 3.4E+38- 6 decimal places
 
@@ -72,9 +72,10 @@ double- 8 byte- 2.3E-308 to 1.7E+308- 15 decimal places
 
 long double- 10 byte 3.4E-4932 to 1.1E+4932- 19 decimal places
 
-######## Hint:
+##### Hint:
 * The header file float.h defines macros that allow you to use these values
-######## Example:
+
+##### Example:
 
 #include <stdio.h>
 
@@ -96,7 +97,7 @@ return 0;
 
 }
 
-######## Result:
+##### Result:
 
 Storage size for float : 4
 
